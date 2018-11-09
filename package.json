@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/lucalexand/RPG/issues"
   },
-  "homepage": "https://github.com/lucalexand/RPG#readme"
+  "homepage": "https://github.com/lucalexand/RPG#readme",
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "sass": "^1.14.3"
+  }
 }
