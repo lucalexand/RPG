@@ -1,0 +1,19 @@
+{
+  "name": "rpg",
+  "version": "1.0.0",
+  "description": "Projeto para fichas de RPG",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucalexand/RPG.git"
+  },
+  "author": "Lucas Alexandre de Sousa Lima",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucalexand/RPG/issues"
+  },
+  "homepage": "https://github.com/lucalexand/RPG#readme"
+}

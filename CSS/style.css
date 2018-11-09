@@ -1,8 +1,19 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+}
+h1{
+    width: 100%;
+}
 .prof, .attr, .hab{
     display: flex;
     flex-wrap: wrap;
     width: 50%;
     padding: 15px;
+    justify-content: space-around;
+}
+.prof{
+    margin-right: 50%;
 }
 .attr, .hab{
     width: 25%;
@@ -12,9 +23,46 @@ h2{
 }
 .prof__campo, .attr__campo, .hab__campo{
     padding: 10px;
-    width: 40%;
+    width: 45%;
     display: flex;
+    justify-content: flex-end;
+    position: relative;
 }
-.prof__name{
-    width: 25%;
+.attr__campo, .hab__campo{
+    width: 50%;
+    margin: 0 auto;
 }
+
+.prof__name, .attr__name, .hab__name{
+    width: auto;
+    text-align: right;
+    margin-right: 10px;
+}
+input{
+    display: block
+}
+input[type=number] {
+    /* font-size: 16px;
+    padding: 0 8px; */
+    text-align: center;
+}
+input[type=number]::-webkit-inner-spin-button { 
+    /* -webkit-appearance: none;
+    cursor:pointer; */
+    display:none;
+    /* width:8px;
+    color: #333;
+    text-align:center;
+    position:relative; */
+}    
+/* input[type=number]:hover::-webkit-inner-spin-button { 
+    background: #eee url('http://i.stack.imgur.com/YYySO.png') no-repeat 50% 50%;  
+    background: none;
+    display: none;
+    width: 14px;
+    height: 14px;
+    padding: 4px;
+    position: relative;
+    right: 4px;
+    border-radius: 28px;
+} */
